@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(206, 247, 94);
+  background-image: url(holi.jpeg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  background-color: rgb(255, 85, 127);
+}
+
+.container:hover {
+  background-color: yellow;
+}
+
+.box {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  background-color: rgb(113, 212, 20);
+  transform: rotate(34deg);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bb {
+  border: 2px solid red;
+  background-color: rgb(252, 168, 137);
+  background-repeat: round;
+  /* margin: 112px; */
+  text-align: center;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  border-radius: 44px;
+}
+
+.bb p {
+  margin: 18px 22px;
+  color: rgb(16, 69, 245);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+}
+
+#box-1 {
+  background-color: crimson;
+}
+
+#box-2 {
+  background-color: yellow;
+}
+
+#box-3 {
+  background-color: cyan;
+}
+
+#box-4 {
+  background-color: rgb(190, 238, 113);
+}
+
+#box-5 {
+  background-color: violet;
+}
+
+#box-6 {
+  background-color: crimson;
+}
+
+.con {
+  display: flex;
+}
+
+.b {
+  width: 26px;
+  height: 120px;
+  margin-left: 90px;
+  background-color: rgb(245, 37, 37);
+}
+
+#bo-1 {
+  margin-left: 450px;
+  background-color: rgb(15, 219, 107);
+}
+
+#bo-2 {
+  margin-left: 500px;
+  background-color: rgb(245, 231, 35);
+}
+
+#bo-3 {
+  margin-left: 550px;
+  background-color: violet;
+}
